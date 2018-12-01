@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import './App.css';
-import BusinessList from './components/BusinessList/BusinessList';
-import SearchBar from './components/SearchBar/SearchBar';
+import BusinessList from '../BusinessList/BusinessList';
+import SearchBar from '../SearchBar/SearchBar';
 
 
 class App extends Component {
@@ -12,7 +12,7 @@ class App extends Component {
                 <SearchBar />
                 <BusinessList />
             </div>
-    );
+        );
     }
 }
 
